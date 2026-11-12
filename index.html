@@ -98,7 +98,29 @@
             <button id="contactBtn" class="buy-btn">Contact Seller</button>
         </div>
     </div>
+     <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.3.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyD4-EFT5udWC2ktigUZRhwaFsV7HImIN_4",
+    authDomain: "e-change-9ad63.firebaseapp.com",
+    projectId: "e-change-9ad63",
+    storageBucket: "e-change-9ad63.firebasestorage.app",
+    messagingSenderId: "1038203826555",
+    appId: "1:1038203826555:web:2386ca7fddcbebd76acdde"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+     </script>
+
+
+
+    
     <!-- This is the JavaScript! It makes the buttons interactive -->
     <script>
         document.getElementById('loginBtn').addEventListener('click', function() {
